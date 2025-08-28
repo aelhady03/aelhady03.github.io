@@ -2,5 +2,9 @@
   {
     "file": "welcome-to-my-blog.md",
     "slug": "welcome-to-my-blog"
+  },
+  {
+    "file": "why-documentation-matters.md",
+    "slug": "why-documentation-matters"
   }
 ]
