@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elhady's blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">Ahmed Elhady's blog</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="posts.html" class="nav-link">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tags.html" class="nav-link">Tags</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="archive.html" class="nav-link">Archive</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Elhady's blog</h1>
+                <p class="hero-description">Insights, tutorials, and thoughts on software development, architecture, and best practices.</p>
+            </div>
+        </section>
+
+        <section class="recent-posts">
+            <h2>Recent Posts</h2>
+            <div id="recent-posts">
+                <!-- Posts will be loaded here -->
+            </div>
+            <a href="posts.html" class="view-all-btn">View All Posts →</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Elhady's blog. Built with vanilla HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="js/markdown.js"></script>
+    <script src="js/posts.js"></script>
+</body>
+</html>

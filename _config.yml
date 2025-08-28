@@ -1,0 +1,52 @@
+# GitHub Pages Configuration
+title: Elhady's blog
+description: Insights, tutorials, and thoughts on software development, architecture, and best practices.
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Include/Exclude files
+include:
+  - _pages
+  - posts
+  - js
+  - styles.css
+
+exclude:
+  - README.md
+  - LICENSE
+  - docs
+  - .gitignore
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Ahmed Elhady"
+      
+# SEO settings
+author: Ahmed Elhady
+twitter:
+  username: aelhady03
+  card: summary
+
+social:
+  name: Elhady's blog
+  links:
+    - https://github.com/aelhady03
+
+# GitHub Pages specific
+repository: aelhady03/blog
+github_username: aelhady03
